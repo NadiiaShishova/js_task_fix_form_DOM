@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("form").forEach(function(e){e.querySelectorAll("input").forEach(function(e){if(e.name){var t=e.name.replace(/([A-Z])/g," $1").replace(/^./,function(e){return e.toUpperCase()});if(e.setAttribute("placeholder",t),e.id){var n=document.createElement("label");n.classList.add("field-label"),n.setAttribute("for",e.id),n.textContent=t,e.parentNode.insertBefore(n,e)}}})})});
+//# sourceMappingURL=index.5904b206.js.map
